@@ -1,0 +1,25 @@
+{
+    "name": "practice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rileypetersen/practice.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rileypetersen/practice/issues"
+    },
+    "homepage": "https://github.com/rileypetersen/practice#readme",
+    "dependencies": {
+        "autoprefixer": "^9.8.6",
+        "postcss-cli": "^7.1.1",
+        "tailwindcss": "^1.7.2"
+    }
+}
